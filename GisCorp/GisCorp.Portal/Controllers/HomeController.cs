@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using GisCorp.Core.Services;
 
 namespace GisCorp.Portal.Controllers
 {
@@ -10,6 +11,8 @@ namespace GisCorp.Portal.Controllers
     {
         public ActionResult Index()
         {
+            string test = Services.AccountService.DoSomething();
+            ViewBag.DoSomething = test;
             return View();
         }
 

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Domain", "GisCorp.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Core", "GisCorp.Core\GisCorp.Core.csproj", "{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Common", "GisCorp.Common\GisCorp.Common.csproj", "{C9499D48-4960-4F9F-A916-3B58ED40CF9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9499D48-4960-4F9F-A916-3B58ED40CF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9499D48-4960-4F9F-A916-3B58ED40CF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9499D48-4960-4F9F-A916-3B58ED40CF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9499D48-4960-4F9F-A916-3B58ED40CF9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
