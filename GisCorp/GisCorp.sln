@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Portal", "GisCorp.Portal\GisCorp.Portal.csproj", "{967DEC3E-6534-47CD-9916-B2E869D4BF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Domain", "GisCorp.Domain\GisCorp.Domain.csproj", "{E8839043-DBB7-4BC9-BA98-B9F142314C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GisCorp.Core", "GisCorp.Core\GisCorp.Core.csproj", "{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{967DEC3E-6534-47CD-9916-B2E869D4BF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967DEC3E-6534-47CD-9916-B2E869D4BF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967DEC3E-6534-47CD-9916-B2E869D4BF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967DEC3E-6534-47CD-9916-B2E869D4BF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8839043-DBB7-4BC9-BA98-B9F142314C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8839043-DBB7-4BC9-BA98-B9F142314C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8839043-DBB7-4BC9-BA98-B9F142314C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8839043-DBB7-4BC9-BA98-B9F142314C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ECE9B0-AC81-4BE7-A5F7-A8A66CD4B348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
